@@ -1,0 +1,14 @@
+Build.PL
+Changes
+lib/Catmandu/Fix/marc_in_json.pm
+lib/Catmandu/Fix/marc_map.pm
+lib/Catmandu/Fix/marc_xml.pm
+lib/Catmandu/Importer/MARC.pm
+lib/Catmandu/MARC.pm
+MANIFEST			This list of files
+README
+t/00-load.t
+Makefile.PL
+LICENSE
+META.yml
+META.json
