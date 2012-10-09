@@ -31,7 +31,7 @@ provides:
     version: 0
   Catmandu::MARC:
     file: lib/Catmandu/MARC.pm
-    version: 0.0103
+    version: 0.0104
 requires:
   Catmandu: 0.01
   MARC::File::XML: 0.93
@@ -40,4 +40,4 @@ requires:
   perl: v5.10.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.0103
+version: 0.0104
