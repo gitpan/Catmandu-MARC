@@ -1,5 +1,6 @@
 Build.PL
 Changes
+lib/Catmandu/Exporter/MARC.pm
 lib/Catmandu/Fix/marc_in_json.pm
 lib/Catmandu/Fix/marc_map.pm
 lib/Catmandu/Fix/marc_xml.pm
