@@ -34,13 +34,13 @@ provides:
     version: 0
   Catmandu::MARC:
     file: lib/Catmandu/MARC.pm
-    version: 0.02
+    version: 0.0201
 requires:
-  Catmandu: 0.01
+  Catmandu: 0.04
   MARC::File::XML: 0.93
   MARC::Record: 2.000003
-  Moo: 0.009011
-  perl: v5.10.0
+  Moo: 1.0
+  perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.0201
