@@ -72,6 +72,7 @@ sub commit {
     if ($self->collection) {
         $self->fh->print('</marc:collection>');
     }
+    $self->fh->flush();
 }
 
 =head1 NAME
@@ -90,7 +91,7 @@ Catmandu::Exporter::MARC - serialize parsed MARC data
         ...
         ],
     };
-    
+
     $exporter->add($data);
     $exporter->commit;
 
