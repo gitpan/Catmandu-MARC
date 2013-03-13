@@ -20,10 +20,10 @@ sub add {
             push @out, Catmandu::Util::xml_declaration;
         }
         if ($self->collection) {
-            push @out, qq(<marc:collection xmlns="http://www.loc.gov/MARC21/slim">);
+            push @out, qq(<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">);
         }
     }
-    push @out, $self->collection ? '<marc:record>' : qq(<marc:record xmlns="http://www.loc.gov/MARC21/slim">);
+    push @out, $self->collection ? '<marc:record>' : qq(<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim">);
 
     if ($self->record_format eq 'raw') { # raw MARC array
         for my $field (@{$data->{$self->record}}) {
