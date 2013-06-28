@@ -3,6 +3,7 @@ Changes
 lib/Catmandu/Exporter/MARC.pm
 lib/Catmandu/Fix/marc_in_json.pm
 lib/Catmandu/Fix/marc_map.pm
+lib/Catmandu/Fix/marc_remove.pm
 lib/Catmandu/Fix/marc_xml.pm
 lib/Catmandu/Importer/MARC.pm
 lib/Catmandu/MARC.pm
@@ -17,6 +18,7 @@ t/01-importer.t
 t/02-aleph.t
 t/03-marc_map.t
 t/04-marc21.t
+t/05-marc_remove.t
 t/camel.usmarc
 t/marc.xml
 t/rug01.aleph

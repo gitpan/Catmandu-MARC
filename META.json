@@ -17,7 +17,6 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Software::License" : "0",
             "Test::Exception" : "0",
             "Test::More" : "0"
          }
@@ -50,6 +49,10 @@
          "file" : "lib/Catmandu/Fix/marc_map.pm",
          "version" : 0
       },
+      "Catmandu::Fix::marc_remove" : {
+         "file" : "lib/Catmandu/Fix/marc_remove.pm",
+         "version" : 0
+      },
       "Catmandu::Fix::marc_xml" : {
          "file" : "lib/Catmandu/Fix/marc_xml.pm",
          "version" : 0
@@ -60,7 +63,7 @@
       },
       "Catmandu::MARC" : {
          "file" : "lib/Catmandu/MARC.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       }
    },
    "release_status" : "stable",
@@ -69,5 +72,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }

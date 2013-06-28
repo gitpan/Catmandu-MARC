@@ -10,7 +10,6 @@ WriteMakefile
                    'MARC::File::XML' => '0.93',
                    'MARC::Record' => '2.000003',
                    'Moo' => '1.0',
-                   'Software::License' => 0,
                    'Test::Exception' => 0,
                    'Test::More' => 0
                  },
