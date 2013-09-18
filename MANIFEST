@@ -19,7 +19,9 @@ t/02-aleph.t
 t/03-marc_map.t
 t/04-marc21.t
 t/05-marc_remove.t
+t/06-old-new-internal-syntax.t
 t/camel.usmarc
 t/marc.xml
+t/old_new.json
 t/rug01.aleph
 t/test.fix

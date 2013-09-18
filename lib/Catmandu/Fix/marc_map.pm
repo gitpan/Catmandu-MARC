@@ -37,7 +37,7 @@ around BUILDARGS => sub {
         $attrs->{field}          = $1;
         $attrs->{ind1}           = $3;
         $attrs->{ind2}           = $4;
-        $attrs->{subfield_regex} = $5 ? "[$5]" : "[a-z0-9_]";
+        $attrs->{subfield_regex} = defined $5 ? "[$5]" : "[a-z0-9_]";
         $attrs->{from}           = $7;
         $attrs->{to}             = $9;
     } else {
@@ -83,8 +83,13 @@ sub emit {
             $perl .= $fixer->emit_declare_vars($v, "[]");
             $perl .= "if (${var}->[0] =~ /^LDR|^00/) {";
             $perl .= $add_subfields->(3);
-            $perl .= "} else {";
+            # Old Catmandu::MARC contained a bug/feature to allow
+            # for '_' subfields in non-control elements ..for beackwards
+            # compatibility we ignore them
+            $perl .= "} elsif (${var}->[5] eq '_') {";
             $perl .= $add_subfields->(5);
+            $perl .= "} else {";
+            $perl .= $add_subfields->(3);
             $perl .= "}";
             $perl .= "if (\@{${v}}) {";
             if (!$self->split) {
