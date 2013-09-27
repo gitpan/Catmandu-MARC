@@ -1,6 +1,7 @@
 Build.PL
 Changes
 lib/Catmandu/Exporter/MARC.pm
+lib/Catmandu/Fix/Inline/marc_map.pm
 lib/Catmandu/Fix/marc_in_json.pm
 lib/Catmandu/Fix/marc_map.pm
 lib/Catmandu/Fix/marc_remove.pm
@@ -20,6 +21,7 @@ t/03-marc_map.t
 t/04-marc21.t
 t/05-marc_remove.t
 t/06-old-new-internal-syntax.t
+t/07-inline-fix.t
 t/camel.usmarc
 t/marc.xml
 t/old_new.json

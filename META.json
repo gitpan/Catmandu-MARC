@@ -41,6 +41,10 @@
          "file" : "lib/Catmandu/Exporter/MARC.pm",
          "version" : 0
       },
+      "Catmandu::Fix::Inline::marc_map" : {
+         "file" : "lib/Catmandu/Fix/Inline/marc_map.pm",
+         "version" : 0
+      },
       "Catmandu::Fix::marc_in_json" : {
          "file" : "lib/Catmandu/Fix/marc_in_json.pm",
          "version" : 0
@@ -63,7 +67,7 @@
       },
       "Catmandu::MARC" : {
          "file" : "lib/Catmandu/MARC.pm",
-         "version" : "0.07"
+         "version" : "0.08"
       }
    },
    "release_status" : "stable",
@@ -72,5 +76,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.07"
+   "version" : "0.08"
 }

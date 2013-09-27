@@ -19,6 +19,9 @@ provides:
   Catmandu::Exporter::MARC:
     file: lib/Catmandu/Exporter/MARC.pm
     version: 0
+  Catmandu::Fix::Inline::marc_map:
+    file: lib/Catmandu/Fix/Inline/marc_map.pm
+    version: 0
   Catmandu::Fix::marc_in_json:
     file: lib/Catmandu/Fix/marc_in_json.pm
     version: 0
@@ -36,7 +39,7 @@ provides:
     version: 0
   Catmandu::MARC:
     file: lib/Catmandu/MARC.pm
-    version: 0.07
+    version: 0.08
 requires:
   Catmandu: 0.08
   MARC::File::XML: 0.93
@@ -45,4 +48,4 @@ requires:
   perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.07
+version: 0.08
