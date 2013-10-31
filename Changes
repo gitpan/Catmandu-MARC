@@ -1,5 +1,8 @@
 Revision history for Catmandu-MARC
 
+0.09    2013-10-31
+  - fixed export formatting bug
+
 0.08    2013-09-27
   - inline marc_map
 
