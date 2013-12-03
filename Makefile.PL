@@ -3,18 +3,18 @@ require 5.010001;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-  'PL_FILES' => {},
-  'INSTALLDIRS' => 'site',
   'NAME' => 'Catmandu::MARC',
-  'EXE_FILES' => [],
   'VERSION_FROM' => 'lib/Catmandu/MARC.pm',
   'PREREQ_PM' => {
-                   'Test::More' => 0,
-                   'Test::Exception' => 0,
+                   'Catmandu' => '0.08',
                    'MARC::File::XML' => '0.93',
-                   'Moo' => '1.0',
                    'MARC::Record' => '2.000003',
-                   'Catmandu' => '0.08'
-                 }
+                   'Moo' => '1.0',
+                   'Test::Exception' => 0,
+                   'Test::More' => 0
+                 },
+  'INSTALLDIRS' => 'site',
+  'EXE_FILES' => [],
+  'PL_FILES' => {}
 )
 ;

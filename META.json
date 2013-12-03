@@ -5,7 +5,7 @@
       "Nicolas Steenlant <nicolas.steenlant@ugent.be>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "perl_5"
    ],
@@ -38,36 +38,29 @@
    },
    "provides" : {
       "Catmandu::Exporter::MARC" : {
-         "file" : "lib/Catmandu/Exporter/MARC.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/Exporter/MARC.pm"
       },
       "Catmandu::Fix::Inline::marc_map" : {
-         "file" : "lib/Catmandu/Fix/Inline/marc_map.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/Fix/Inline/marc_map.pm"
       },
       "Catmandu::Fix::marc_in_json" : {
-         "file" : "lib/Catmandu/Fix/marc_in_json.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/Fix/marc_in_json.pm"
       },
       "Catmandu::Fix::marc_map" : {
-         "file" : "lib/Catmandu/Fix/marc_map.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/Fix/marc_map.pm"
       },
       "Catmandu::Fix::marc_remove" : {
-         "file" : "lib/Catmandu/Fix/marc_remove.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/Fix/marc_remove.pm"
       },
       "Catmandu::Fix::marc_xml" : {
-         "file" : "lib/Catmandu/Fix/marc_xml.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/Fix/marc_xml.pm"
       },
       "Catmandu::Importer::MARC" : {
-         "file" : "lib/Catmandu/Importer/MARC.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/Importer/MARC.pm"
       },
       "Catmandu::MARC" : {
          "file" : "lib/Catmandu/MARC.pm",
-         "version" : "0.09"
+         "version" : "0.1"
       }
    },
    "release_status" : "stable",
@@ -76,5 +69,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.09"
+   "version" : "0.1"
 }
