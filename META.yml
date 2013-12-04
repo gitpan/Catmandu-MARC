@@ -32,7 +32,7 @@ provides:
     file: lib/Catmandu/Importer/MARC.pm
   Catmandu::MARC:
     file: lib/Catmandu/MARC.pm
-    version: 0.1
+    version: 0.101
 requires:
   Catmandu: 0.08
   MARC::File::XML: 0.93
@@ -41,4 +41,4 @@ requires:
   perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.1
+version: 0.101
