@@ -11,7 +11,8 @@ WriteMakefile
                    'MARC::Record' => '2.000003',
                    'Moo' => '1.0',
                    'Test::Exception' => 0,
-                   'Test::More' => 0
+                   'Test::More' => 0,
+                   'XML::XPath' => 0
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],

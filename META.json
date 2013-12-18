@@ -18,7 +18,8 @@
       "build" : {
          "requires" : {
             "Test::Exception" : "0",
-            "Test::More" : "0"
+            "Test::More" : "0",
+            "XML::XPath" : "0"
          }
       },
       "configure" : {
@@ -60,7 +61,7 @@
       },
       "Catmandu::MARC" : {
          "file" : "lib/Catmandu/MARC.pm",
-         "version" : "0.102"
+         "version" : "0.103"
       }
    },
    "release_status" : "stable",
@@ -69,5 +70,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.102"
+   "version" : "0.103"
 }
