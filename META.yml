@@ -8,9 +8,9 @@ build_requires:
   Test::More: 0
   XML::XPath: 0
 configure_requires:
-  Module::Build: 0.40
+  Module::Build: 0.42
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
+generated_by: 'Module::Build version 0.4203, CPAN::Meta::Converter version 2.132830'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -33,7 +33,7 @@ provides:
     file: lib/Catmandu/Importer/MARC.pm
   Catmandu::MARC:
     file: lib/Catmandu/MARC.pm
-    version: 0.104
+    version: 0.105
 requires:
   Catmandu: 0.08
   MARC::File::XML: 0.93
@@ -42,4 +42,4 @@ requires:
   perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.104
+version: 0.105
