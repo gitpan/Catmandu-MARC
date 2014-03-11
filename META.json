@@ -61,7 +61,7 @@
       },
       "Catmandu::MARC" : {
          "file" : "lib/Catmandu/MARC.pm",
-         "version" : "0.107"
+         "version" : "0.108"
       }
    },
    "release_status" : "stable",
@@ -70,5 +70,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.107"
+   "version" : "0.108"
 }
