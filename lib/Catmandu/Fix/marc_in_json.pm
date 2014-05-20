@@ -2,14 +2,9 @@ package Catmandu::Fix::marc_in_json;
 
 use Catmandu::Sane;
 use Moo;
+use Catmandu::Fix::Has;
 
-has opts => (is => 'ro');
-
-around BUILDARGS => sub {
-    my ($orig, $class, %opts) = @_;
-    $opts{-record} ||= 'record';
-    $orig->($class, opts => \%opts);
-};
+has record => (fix_opt => 1);
 
 # Transform a raw MARC array into MARC-in-JSON
 # See Ross Singer work at:
@@ -17,7 +12,7 @@ around BUILDARGS => sub {
 sub fix {
     my ($self, $data) = @_;
 
-    my $marc_pointer = $self->opts->{-record};
+    my $marc_pointer = $self->record // 'record';
 
     if (my $marc = delete $data->{$marc_pointer}) {
         for my $field (@$marc) {
@@ -53,7 +48,10 @@ Catmandu::Fix::marc_in_json - transform a Catmandu MARC record into MARC-in-JSON
 =head1 SYNOPSIS
 
    # Create a deeply nested key
-   marc_in_json();
+   marc_in_json()
+
+   # Optionally provide a pointer to the marc record
+   marc_in_json(-record => 'record')
 
 =head1 SEE ALSO
 

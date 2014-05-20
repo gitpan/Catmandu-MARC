@@ -3,7 +3,6 @@ Changes
 lib/Catmandu/Exporter/MARC.pm
 lib/Catmandu/Fix/Inline/marc_add.pm
 lib/Catmandu/Fix/Inline/marc_map.pm
-lib/Catmandu/Fix/Inline/marc_remove.pm
 lib/Catmandu/Fix/marc_add.pm
 lib/Catmandu/Fix/marc_in_json.pm
 lib/Catmandu/Fix/marc_map.pm
@@ -12,7 +11,10 @@ lib/Catmandu/Fix/marc_xml.pm
 lib/Catmandu/Importer/MARC.pm
 lib/Catmandu/MARC.pm
 LICENSE
+Makefile.PL
 MANIFEST			This list of files
+META.json
+META.yml
 README
 t/00-load.t
 t/01-importer.t
@@ -29,6 +31,3 @@ t/marc.xml
 t/old_new.json
 t/rug01.aleph
 t/test.fix
-Makefile.PL
-META.yml
-META.json

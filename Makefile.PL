@@ -6,7 +6,7 @@ WriteMakefile
   'NAME' => 'Catmandu::MARC',
   'VERSION_FROM' => 'lib/Catmandu/MARC.pm',
   'PREREQ_PM' => {
-                   'Catmandu' => '0.08',
+                   'Catmandu' => '0.9',
                    'MARC::File::XML' => '0.93',
                    'MARC::Record' => '2.000003',
                    'Moo' => '1.0',
