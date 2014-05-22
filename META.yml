@@ -4,25 +4,29 @@ author:
   - 'Patrick Hochstenbach <patrick.hochstenbach@ugent.be>'
   - 'Nicolas Steenlant <nicolas.steenlant@ugent.be>'
 build_requires:
-  Test::Exception: 0
-  Test::More: 0
-  XML::XPath: 0
+  Test::Exception: '0'
+  Test::More: '0'
+  XML::XPath: '0'
 configure_requires:
-  Module::Build: 0.42
+  Module::Build: '0.42'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4205, CPAN::Meta::Converter version 2.132830'
+generated_by: 'Module::Build version 0.4205, CPAN::Meta::Converter version 2.141170'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Catmandu-MARC
 provides:
   Catmandu::Exporter::MARC:
     file: lib/Catmandu/Exporter/MARC.pm
+  Catmandu::Fix::Condition::marc_match:
+    file: lib/Catmandu/Fix/Condition/marc_match.pm
   Catmandu::Fix::Inline::marc_add:
     file: lib/Catmandu/Fix/Inline/marc_add.pm
   Catmandu::Fix::Inline::marc_map:
     file: lib/Catmandu/Fix/Inline/marc_map.pm
+  Catmandu::Fix::Inline::marc_remove:
+    file: lib/Catmandu/Fix/Inline/marc_remove.pm
   Catmandu::Fix::marc_add:
     file: lib/Catmandu/Fix/marc_add.pm
   Catmandu::Fix::marc_in_json:
@@ -37,13 +41,13 @@ provides:
     file: lib/Catmandu/Importer/MARC.pm
   Catmandu::MARC:
     file: lib/Catmandu/MARC.pm
-    version: 0.114
+    version: '0.115'
 requires:
-  Catmandu: 0.9
-  MARC::File::XML: 0.93
-  MARC::Record: 2.000003
-  Moo: 1.0
+  Catmandu: '0.9'
+  MARC::File::XML: '0.93'
+  MARC::Record: '2.000003'
+  Moo: '1.0'
   perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.114
+version: '0.115'

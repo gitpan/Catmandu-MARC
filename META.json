@@ -41,11 +41,17 @@
       "Catmandu::Exporter::MARC" : {
          "file" : "lib/Catmandu/Exporter/MARC.pm"
       },
+      "Catmandu::Fix::Condition::marc_match" : {
+         "file" : "lib/Catmandu/Fix/Condition/marc_match.pm"
+      },
       "Catmandu::Fix::Inline::marc_add" : {
          "file" : "lib/Catmandu/Fix/Inline/marc_add.pm"
       },
       "Catmandu::Fix::Inline::marc_map" : {
          "file" : "lib/Catmandu/Fix/Inline/marc_map.pm"
+      },
+      "Catmandu::Fix::Inline::marc_remove" : {
+         "file" : "lib/Catmandu/Fix/Inline/marc_remove.pm"
       },
       "Catmandu::Fix::marc_add" : {
          "file" : "lib/Catmandu/Fix/marc_add.pm"
@@ -67,7 +73,7 @@
       },
       "Catmandu::MARC" : {
          "file" : "lib/Catmandu/MARC.pm",
-         "version" : "0.114"
+         "version" : "0.115"
       }
    },
    "release_status" : "stable",
@@ -76,5 +82,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.114"
+   "version" : "0.115"
 }
