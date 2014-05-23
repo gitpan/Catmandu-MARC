@@ -1,18 +1,33 @@
-Catmandu-MARC
+NAME
+    Catmandu::MARC - Catmandu modules for working with MARC data
 
-INSTALLATION
+MODULES
+    *   Catmandu::Importer::MARC
 
-To install this module, run the following commands:
+    *   Catmandu::Fix::marc_map
 
-  perl Build.PL
-	./Build
-	./Build test
-	./Build install
+    *   Catmandu::Fix::marc_xml
 
-SUPPORT AND DOCUMENTATION
+    *   Catmandu::Fix::marc_in_json
 
-After installing, you can find documentation for this module with the
-perldoc command.
+AUTHOR
+    Patrick Hochstenbach, "<patrick.hochstenbach at ugent.be>"
 
-  perldoc Catmandu::MARC
+CONTRIBUTORS
+    *   Nicolas Steenlant, "<nicolas.steenlant at ugent.be>"
+
+    *   Nicolas Franck, "<nicolas.franck at ugent.be>"
+
+    *   Johann Rolschewski, "johann.rolschewski at sbb.spk-berlin.de"
+
+    *   Chris Cormack
+
+    *   Robin Sheat
+
+LICENSE AND COPYRIGHT
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of either: the GNU General Public License as published
+    by the Free Software Foundation; or the Artistic License.
+
+    See http://dev.perl.org/licenses/ for more information.
 
