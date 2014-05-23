@@ -1,5 +1,9 @@
 Revision history for Catmandu-MARC
 
+0.117  2014-05-23 12:06:40 CEST
+  - Adding more documentation hints
+  - Fixing the marc_match (deleting temporary keys)
+
 0.116  2014-05-23 09:31:14 CEST
   - Switched to Dist::Milla
 
