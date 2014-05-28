@@ -18,7 +18,7 @@ my %module_build_args = (
     "Patrick Hochstenbach, C<< <patrick.hochstenbach at ugent.be> >>"
   ],
   "dist_name" => "Catmandu-MARC",
-  "dist_version" => "0.117",
+  "dist_version" => "0.2",
   "license" => "perl",
   "module_name" => "Catmandu::MARC",
   "recommends" => {},
@@ -26,8 +26,10 @@ my %module_build_args = (
   "requires" => {
     "Catmandu" => "0.90",
     "JSON::XS" => "2.3",
+    "MARC::File::MARCMaker" => "0.05",
+    "MARC::File::MiJ" => "0.04",
     "MARC::File::XML" => "0.93",
-    "MARC::Record" => "v2.0.3",
+    "MARC::Record" => "v2.0.6",
     "Moo" => "1.0",
     "YAML::XS" => "0.34",
     "perl" => "v5.10.1"

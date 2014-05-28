@@ -27,8 +27,10 @@ no_index:
 requires:
   Catmandu: '0.90'
   JSON::XS: '2.3'
+  MARC::File::MARCMaker: '0.05'
+  MARC::File::MiJ: '0.04'
   MARC::File::XML: '0.93'
-  MARC::Record: v2.0.3
+  MARC::Record: v2.0.6
   Moo: '1.0'
   YAML::XS: '0.34'
   perl: v5.10.1
@@ -36,7 +38,7 @@ resources:
   bugtracker: https://github.com/LibreCat/Catmandu-MARC/issues
   homepage: https://github.com/LibreCat/Catmandu-MARC
   repository: https://github.com/LibreCat/Catmandu-MARC.git
-version: '0.117'
+version: '0.2'
 x_contributors:
   - 'Chris Cormack <chrisc@catalyst.net.nz>'
   - 'Johann Rolschewski <rolschewski@gmail.com>'
