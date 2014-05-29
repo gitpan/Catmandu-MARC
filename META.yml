@@ -39,7 +39,7 @@ resources:
   bugtracker: https://github.com/LibreCat/Catmandu-MARC/issues
   homepage: https://github.com/LibreCat/Catmandu-MARC
   repository: https://github.com/LibreCat/Catmandu-MARC.git
-version: '0.201'
+version: '0.202'
 x_contributors:
   - 'Chris Cormack <chrisc@catalyst.net.nz>'
   - 'Johann Rolschewski <rolschewski@gmail.com>'
