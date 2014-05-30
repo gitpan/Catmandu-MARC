@@ -6,7 +6,7 @@ Catmandu::MARC - Catmandu modules for working with MARC data
 
 =cut
 
-our $VERSION = '0.202';
+our $VERSION = '0.203';
 
 =head1 SYNOPSIS
 
@@ -59,6 +59,8 @@ our $VERSION = '0.202';
 =item * L<Catmandu::Fix::marc_xml>
 
 =item * L<Catmandu::Fix::marc_in_json>
+
+=item * L<Catmandu::Fix::marc_set>
 
 =item * L<Catmandu::Fix::Condition::marc_match>
 

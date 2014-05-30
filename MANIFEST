@@ -23,6 +23,7 @@ lib/Catmandu/Fix/marc_add.pm
 lib/Catmandu/Fix/marc_in_json.pm
 lib/Catmandu/Fix/marc_map.pm
 lib/Catmandu/Fix/marc_remove.pm
+lib/Catmandu/Fix/marc_set.pm
 lib/Catmandu/Fix/marc_xml.pm
 lib/Catmandu/Importer/MARC.pm
 lib/Catmandu/Importer/MARC/ALEPHSEQ.pm
@@ -47,6 +48,7 @@ t/08-exporter.t
 t/09-marc_add.t
 t/10-marcmaker.t
 t/11-mij.t
+t/12-marc_set.t
 t/camel.mrk
 t/camel.usmarc
 t/marc.xml

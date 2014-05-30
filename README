@@ -49,6 +49,8 @@ MODULES
 
     *   Catmandu::Fix::marc_in_json
 
+    *   Catmandu::Fix::marc_set
+
     *   Catmandu::Fix::Condition::marc_match
 
     *   Catmandu::Fix::Inline::marc_map

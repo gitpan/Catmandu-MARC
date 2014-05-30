@@ -73,7 +73,7 @@
          "web" : "https://github.com/LibreCat/Catmandu-MARC"
       }
    },
-   "version" : "0.202",
+   "version" : "0.203",
    "x_contributors" : [
       "Chris Cormack <chrisc@catalyst.net.nz>",
       "Johann Rolschewski <rolschewski@gmail.com>",
