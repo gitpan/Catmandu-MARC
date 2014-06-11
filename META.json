@@ -4,7 +4,7 @@
       "Patrick Hochstenbach, C<< <patrick.hochstenbach at ugent.be> >>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Milla version v1.0.5, Dist::Zilla version 5.016, CPAN::Meta::Converter version 2.141170",
+   "generated_by" : "Dist::Milla version v1.0.5, Dist::Zilla version 5.016, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "perl_5"
    ],
@@ -41,12 +41,12 @@
       },
       "runtime" : {
          "requires" : {
-            "Catmandu" : "0.9103",
+            "Catmandu" : "0.9202",
             "JSON::XS" : "2.3",
             "MARC::File::MARCMaker" : "0.05",
             "MARC::File::MiJ" : "0.04",
             "MARC::File::XML" : "0.93",
-            "MARC::Parser::RAW" : "0.01",
+            "MARC::Parser::RAW" : "0",
             "MARC::Record" : "v2.0.6",
             "Moo" : "1.0",
             "YAML::XS" : "0.34",
@@ -73,7 +73,7 @@
          "web" : "https://github.com/LibreCat/Catmandu-MARC"
       }
    },
-   "version" : "0.203",
+   "version" : "0.204",
    "x_contributors" : [
       "Chris Cormack <chrisc@catalyst.net.nz>",
       "Johann Rolschewski <rolschewski@gmail.com>",
