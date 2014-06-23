@@ -49,6 +49,7 @@ t/09-marc_add.t
 t/10-marcmaker.t
 t/11-mij.t
 t/12-marc_set.t
+t/13-marcxml.t
 t/camel.mrk
 t/camel.usmarc
 t/marc.xml
